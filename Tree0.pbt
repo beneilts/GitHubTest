@@ -36,8 +36,9 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -80
-      Y: -35
+      X: 585
+      Y: -330
+      Z: -6.10351563e-05
     }
     Rotation {
     }
@@ -52,15 +53,14 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.0834436268
-        G: 0.9
+        R: 0.9
         A: 1
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 9098621939613659642
+        Id: 17942498871746070998
       }
     }
   }
