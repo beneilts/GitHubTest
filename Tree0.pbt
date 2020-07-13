@@ -19,7 +19,7 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 7093277155332016778
+  ChildIds: 9466347078009481559
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,16 +32,9 @@ Objects {
   }
 }
 Objects {
-  Id: 7093277155332016778
+  Id: 9466347078009481559
   Name: "Cube - Bottom-Aligned"
   Transform {
-    Location {
-      X: 585
-      Y: -330
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -49,39 +42,32 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.9
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 17942498871746070998
-      }
-    }
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15921883950178555489
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4382152216650663468
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Cube - Bottom-Aligned"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 585
+            Y: -330
+            Z: -6.10351563e-05
+          }
+        }
       }
+    }
+    TemplateAsset {
+      Id: 15708678934880766121
     }
   }
 }
