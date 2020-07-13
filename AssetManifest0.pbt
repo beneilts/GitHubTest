@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9098621939613659642
+  Name: "Book Shelf 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_books_shelf_001_uv"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
