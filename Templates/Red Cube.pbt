@@ -1,13 +1,13 @@
 Assets {
   Id: 15708678934880766121
-  Name: "Cube - Bottom-Aligned"
+  Name: "Red Cube"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 4382152216650663468
       Objects {
         Id: 4382152216650663468
-        Name: "Cube - Bottom-Aligned"
+        Name: "Red Cube"
         Transform {
           Scale {
             X: 1
@@ -27,7 +27,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17942498871746070998
+              Id: 15895167311111527595
             }
           }
         }
@@ -63,12 +63,12 @@ Assets {
       }
     }
     Assets {
-      Id: 17942498871746070998
-      Name: "Birch Leaves 01"
+      Id: 15895167311111527595
+      Name: "Basic Hologram"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_leaves_birch_001"
+        AssetId: "fxmi_basic_hologram"
       }
     }
     PrimaryAssetId {
