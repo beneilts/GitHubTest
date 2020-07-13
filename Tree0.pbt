@@ -19,7 +19,7 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 9466347078009481559
+  ChildIds: 9440824301099504850
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,8 +32,8 @@ Objects {
   }
 }
 Objects {
-  Id: 9466347078009481559
-  Name: "Cube - Bottom-Aligned"
+  Id: 9440824301099504850
+  Name: "Red Cube"
   Transform {
     Scale {
       X: 1
@@ -54,14 +54,18 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Cube - Bottom-Aligned"
+          String: "Red Cube"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 585
-            Y: -330
-            Z: -6.10351563e-05
+            X: 1045
+            Y: -240
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
